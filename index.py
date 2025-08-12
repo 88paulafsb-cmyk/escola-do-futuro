@@ -1,8 +1,12 @@
-n1=int(input('digite um numero:'))
-n2=int(input('digite outro número para somar ao primeiro:'))
 
-print( f'a soma de {n1} e {n2} é {n1+n2}')
 
-numero= int (input('digite um numero:'))
 
- print(f'0')
+n1 = float(input("Digite um valor : "))
+n2 = float(input("Digite um valor :  "))
+
+
+if n2 != 0:
+    resultado = n1/ n2
+    print(f"O resultado de {n1} ÷ {n2} é {resultado}")
+else:
+    print("Erro: divisão por zero não é permitida.")
