@@ -1,7 +1,8 @@
-nome = input( 'qual e o seu nome?')
+n1=int(input('digite um numero:'))
+n2=int(input('digite outro número para somar ao primeiro:'))
 
-idade= input('qual sua idade ?')
+print( f'a soma de {n1} e {n2} é {n1+n2}')
 
-cidade = input ('qual e nome da sua cidade?')
+numero= int (input('digite um numero:'))
 
-print(f"bem vindo {nome} sua idade é {idade} e o nome da sua cidade {cidade}")
+ print(f'0')
